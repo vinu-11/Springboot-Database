@@ -1,6 +1,13 @@
 package com.example.springbootdatabase.topic;
 
+
+import jakarta.persistence.Entity;
+import jakarta.persistence.Id;
+
+@Entity
 public class Topics {
+
+    @Id
     private String id;
     private String name;
 
